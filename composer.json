@@ -1,0 +1,34 @@
+{
+    "name": "confrariaweb/laravel-template-colugo",
+    "version": "dev-master",
+    "description": "Laravel template package colugo",
+    "keywords": [
+        "template",
+        "framework",
+        "laravel"
+    ],
+    "license": "MIT",
+    "type": "package",
+    "authors": [
+        {
+            "name": "Rafael Zingano",
+            "email": "confrariaweb@gmail.com"
+        }
+    ],
+    "require": {
+        "confrariaweb/laravel-template": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "ConfrariaWeb\\TemplateColugo\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ConfrariaWeb\\TemplateColugo\\Providers\\TemplateColugoServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}

@@ -1,0 +1,20 @@
+@extends('templateColugo::layouts.app')
+
+@section('title', 'CW Church')
+
+@section('content')
+    @include('templateColugo::sections.' . config('cw_template_colugo.base') . '.banner')
+    @include('templateColugo::sections.' . config('cw_template_colugo.base') . '.fun-facts-area')
+    @include('templateColugo::sections.' . config('cw_template_colugo.base') . '.about')
+    @include('templateColugo::sections.' . config('cw_template_colugo.base') . '.features')
+    @include('templateColugo::sections.' . config('cw_template_colugo.base') . '.screenshots')
+    @include('templateColugo::sections.' . config('cw_template_colugo.base') . '.testimonial')
+    @include('templateColugo::sections.' . config('cw_template_colugo.base') . '.overview')
+    @include('templateColugo::sections.' . config('cw_template_colugo.base') . '.pricing')
+    @include('templateColugo::sections.' . config('cw_template_colugo.base') . '.faq')
+    @include('templateColugo::sections.' . config('cw_template_colugo.base') . '.team')
+    @include('templateColugo::sections.' . config('cw_template_colugo.base') . '.app')
+    @include('templateColugo::sections.' . config('cw_template_colugo.base') . '.blog')
+    @include('templateColugo::sections.' . config('cw_template_colugo.base') . '.contact')
+    @include('templateColugo::sections.' . config('cw_template_colugo.base') . '.subscribe')
+@endsection
